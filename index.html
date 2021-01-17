@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- swiper slider -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- swiper slider -->
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- bootstrap -->
+    <link rel="icon" href="./img/basic_brand.png">
+    <title> CV </title>
+</head>
+<body>
+    <div class="wrapper" id="loginBlock">
+        <div class="title-text">
+            <div class="title login">LOGIN FORM</div>
+            <div class="title signup">SIGN UP FORM</div>
+        </div>
+
+        <div class="form-container">
+        <div class="slide-controls">
+            <input type="radio" name="slier" id="login" checked>
+            <input type="radio" name="slier" id="signup" >
+            <label for="login" class="slide login">Login</label>
+            <label for="signup" class="slide signup"><a href="http://localhost/test_api/signup.php" style="text-decoration: none; ">Sign up</a></label>
+            <div class="slide-tab"></div>
+        </div>
+        <div class="form-inner">
+            <form action ='#' class ="login">
+            <div class="field">
+                <input type="text" id="email-log" placeholder = "Email Address" required>
+            </div>
+            <div class="field">
+                <input type="password" id="pass-log" placeholder = "PassWord" required>
+            </div>
+            
+            <div class="field">
+                <input type="submit" id="submit-log" value="Login">
+            </div>
+            <div class="signup-link">Not a member?<a href="#">Signup now</a></div>
+            </form>
+
+            
+        </div>
+        </div>
+      </div>
+    <div class="hide" id="block">
+        <div class="container">
+            <div class="circle-menu">
+                <div class="hamburger" >
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div> 
+                    <!-- <div class="hamburger-text">Menu</div> -->
+                </div>
+            </div>
+            <div class="nav-wrap">
+                <ul class="nav">
+                    <li class="nav-items"><a href="#content-about">ABOUT</a></li>
+                    <li class="nav-items"><a href="#content-resume">RESUME</a></li>
+                    <li class="nav-items"><a href="#content-portfolio">PORTFOLIO</a></li>
+                    <li class="nav-items"><a href="#content-Character">CHARACTERISTICS</a></li>
+                    <li class="nav-items"><a href="#content-Contact">CONTACT</a></li> 
+                </ul>
+            </div>
+            <div class="wrapper-sticky-parent">
+                <aside class="sidebar" id="sidebar">
+                    <!-- show-infor  -->
+                </aside>
+                <div class="under-sidebar" id="under-sidebar"></div>
+                <div class="content" id="content">
+                    <div class="content-about" id="content-about">
+                        <div class="section mt-0">
+                            <h1 class="text-head">About me</h1>
+                            <div class="text-body" id="text-body">
+                                <!-- About me -->
+                            </div>
+                        </div>
+                        <div class="section ">
+                            <h2>What I'm Doing</h2>
+                            <div class="row" id="doing">
+                                <!-- What I'm Doing -->
+                            </div>
+                        </div>
+                        <div class="section ">
+                            <h2>Testimonials </h2>
+                            <div class="sliderShow">
+                            <div class="swiper-container">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper" id="swiper-wrapper">
+                                    <!-- Slides -->
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="section ">
+                            <h2>Clients</h2>
+                            <div class="clients" id="clients">
+                                <!-- clients -->
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="content-resume" id="content-resume">
+                        <div class="section mt-0">
+                            <h1 class="text-head">Resume</h1>
+                        </div>
+                        <div class="section">
+                            <h2 class="education"><img src="./img/icon-education.svg" alt="" srcset=""> Education</h2>
+                            <div class="timeline" id="edu">
+                                
+                                <!-- education  -->
+                        
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="experience">
+                                <h2 class="experience"><img src="./img/icon-experience.svg" alt="" srcset=""> Experience</h2>
+                                <div class="timeline" id="ex">
+                                    
+                                    <!-- experience -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="mySkills">
+                                <h2 class="mySkills">My Skills</h2>
+                                <div class="boxSkills" id="boxSkills">
+                                    <!-- Skill  -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-portfolio" id="content-portfolio">
+                        <div class="section mt-0">
+                            <h1 class="text-head">Portfolio</h1>
+                        </div>
+                        <div class="section">
+                            <div class="box-Product" id="box-Product">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-Character" id="content-Character">
+                        <div class="section mt-0">
+                            <h1 class="text-head">Characteristics</h1>
+                        </div>
+                        <div class="section">
+                            <div class="box-character" id="box-character">
+                                <div class="advantage character">
+                                    <h4 class="text-character">advantage</h4>
+                                    <ul id="advantage">
+                                   
+                                    </ul>
+                                </div>
+                                <div class="disadvantage character">
+                                    <h4 class="text-character">disadvantage</h4>
+                                    <ul id="dis">
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-Contact" id="content-Contact">
+                        <div class="section mt-0">
+                            <h1 class="text-head">Contact</h1>
+                        </div>
+                        <div class="section">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.550455632758!2d105.77576091476301!3d21.010649886008235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134535445d9fdd7%3A0xcf29dbb8128965a6!2zMjAgxJDhu5NuZyBNZSwgTeG7hSBUcsOsLCBU4burIExpw6ptLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1610784974020!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0; border-radius: 20px; width: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                        <div class="section">
+                            <!-- <h4>Contact Form</h4>
+                            <div class="box-contact">
+                                <div class="headBox">
+                                    <input type="text" name="" placeholder="Your name" id="">
+                                    <input type="text" name="" placeholder="abc@gmail.com" id="">
+                                </div>
+                                <div class="bodyBox">
+                                    <textarea name="message" rows="5" placeholder="Your Message" ><textarea></textarea>
+                                    <input type="submit" value="Send">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="admin">
+                <div class="btnUpTop itemAdim" id="btnUpTop"><i class="fas fa-chevron-circle-up" style="font-size: 30px;color: #fff; cursor: pointer;"></i></div>
+                <div class="btnOut itemAdim" id="btnOut"> <i class="fas fa-sign-out-alt" style="font-size: 30px;color: #fff; cursor: pointer;"></i></div>
+                <a href="http://localhost/test_api/viewMember.php" class="itemAdim" id="admin"> <i class="fas fa-user-circle" style="font-size: 30px;color: #fff;"></i></a>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+<script type="module" src="./js/index.js"></script>
+<script src="https://kit.fontawesome.com/4bd1b4a97f.js" crossorigin="anonymous"></script>
+<!-- bootstrap -->
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/bootstrap.bundle.js"></script>
+<!-- swiper slider -->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+var mySwiper = new Swiper('.swiper-container', {
+//     direction: 'horizontal',
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+});
+</script>
+<!-- swiper slider -->
+</html>
